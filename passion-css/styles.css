@@ -1,0 +1,139 @@
+/* unsure about what :root refers to? is it global settings? */
+
+:root {
+  background: #f7f3df;
+  color: #c42c02;
+}
+
+/* I still have many questions about fonts here */
+@font-face {
+  font-family: 'leaguegothicregular';
+  src: url('assets/LeagueGothic-Regular.woff2') format('woff2'),
+   url('assets/LeagueGothic-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-feature-settings: "kern" on;
+  unicode-range: U+0025-00FF, U+4??;
+}
+
+@font-face {
+  font-family: 'garamondlibreregular';
+  src: url('assets/GaramondLibre-Regular.otf') format('otf'),
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0025-00FF, U+4??;
+}
+
+@font-face {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0025-00FF, U+4??;
+}
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'garamondlibreregular';
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-left: 0;
+}
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 4rem;
+  font-feature-settings: "kern" on;
+  font-kerning: normal;
+  letter-spacing: 6rem;
+  margin-top: -2rem;
+  margin-bottom: .7rem;
+}
+
+h4 {
+  font-family: 'leaguegothicregular';
+  font-size: 1rem;
+  font-feature-settings: "kern" on;
+  font-kerning: normal;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  margin-top: 3rem;
+}
+
+h5 {
+  font-family: 'leaguegothicregular';
+  font-size: 1.25rem;
+  font-feature-settings: "kern" on;
+  font-kerning: normal;
+  letter-spacing: .1rem;
+}
+
+h6 {
+  font-family: 'leaguegothicregular';
+  font-size: 1rem;
+  font-feature-settings: "kern" on;
+  font-kerning: normal;
+  letter-spacing: .1rem;
+  text-decoration-line:overline;
+  text-decoration-style: wavy;
+  margin-bottom: 6rem;
+}
+
+blockquote {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 1.5rem;
+}
+
+ol {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 1.25rem;
+  margin-left: 1rem;
+  padding-bottom: 3rem;
+}
+
+li {
+  margin: -.5rem;
+}
+
+dl {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 1.25rem;
+  margin-left: 1rem;
+  padding-bottom: 3rem;
+}
+
+dt {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.sidenote {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.border {
+  border-width: 10px;
+  border-style: groove;
+  border-color: #c42c02;
+  padding-top: 10px;
+
+}
+
+.halftone {
+  filter: invert(26%) sepia(99%) saturate(6088%) hue-rotate(20deg) brightness(90%) contrast(98%);
+}
+
+
+/* p {
+  font-family: 'leaguegothicregular';
+  font-feature-settings: "kern" on;
+} */

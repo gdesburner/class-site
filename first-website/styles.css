@@ -1,0 +1,48 @@
+body {
+  background-color: #a095ab;
+  color: #0d2058;
+  font-family: 'Abhaya Libre', serif;
+}
+
+p {
+  font-family: 'Abhaya Libre', serif;
+  color: rgb(100,30,90);
+  background: #faefcd;
+
+  border: 120px dashed azure;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 800px;
+  margin: 40px
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 60px;
+  font-weight: 100;
+  margin: 80px;
+  margin-top: 0;
+}
+
+img {
+  margin: 40px;
+  max-width: 100%;
+}
+
+.special {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.distorted-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: blur(5px) sepia(100%) saturate(1000%) contrast(120%);
+  margin= auto;
+}
+
+ol {
+  margin: 80px;
+}
