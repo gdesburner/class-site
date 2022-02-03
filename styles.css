@@ -21,8 +21,26 @@ body {
   margin-right: 500px;
 }
 
-/* TYPOGRAPHY */
+/* links */
 
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9237ed;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  font-family: 'junicodebeta-condensedlightitalic';
+}
+
+a:active {
+  color: #9237ed;
+}
 
 ul {
   list-style-type: none;
@@ -30,28 +48,4 @@ ul {
   font-size: 2rem;
   line-height: 1.2;
   margin-left: 1rem;
-
-}
-
-/* unvisited link */
-a:link {
-  color: black;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: #9237ed;
-  text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-  color: #9237ed;
-  font-family: 'junicodebeta-condensedlightitalic';
-}
-
-/* selected link */
-a:active {
-  color: #9237ed;
 }
