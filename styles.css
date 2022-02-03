@@ -1,3 +1,57 @@
+@font-face {
+  font-family: 'junicodebeta-condensedlight';
+  src: url('assets/fonts/JunicodeTwoBeta-CondensedLight.otf');
+}
+
+@font-face {
+  font-family: 'junicodebeta-condensedlightitalic';
+  src: url('assets/fonts/JunicodeTwoBeta-CondensedLightItalic.otf');
+}
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: rebeccapurple;
+  background-color: #db9f37;
+  font-family: 'junicodebeta-condensedlight';
+  font-size: 2rem;
+  margin-left: 40px;
+  margin-right: 500px;
+}
+
+/* TYPOGRAPHY */
+
+
+ul {
+  list-style-type: none;
+  font-family: 'junicodebeta-condensedlight';
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-left: 1rem;
+
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #9237ed;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #9237ed;
+  font-family: 'junicodebeta-condensedlightitalic';
+}
+
+/* selected link */
+a:active {
+  color: #9237ed;
 }
