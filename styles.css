@@ -17,7 +17,9 @@ body {
   background-color: #db9f37;
   font-family: 'junicodebeta-condensedlight';
   font-size: 2rem;
-  margin-left: 40px;
+  line-height: 1.2;
+  margin-top: -1rem;
+  margin-left: 2rem;
   margin-right: 500px;
 }
 
@@ -44,8 +46,14 @@ a:active {
 
 ul {
   list-style-type: none;
+  list-style-image: url('assets/img/burst.svg');
   font-family: 'junicodebeta-condensedlight';
   font-size: 2rem;
   line-height: 1.2;
-  margin-left: 1rem;
+  margin-left: 5.5rem;
+}
+
+li span {
+  position: relative;
+  left: 2rem;
 }
