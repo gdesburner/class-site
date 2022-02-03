@@ -1,3 +1,4 @@
+/* fonts */
 @font-face {
   font-family: 'junicodebeta-condensedlight';
   src: url('assets/fonts/JunicodeTwoBeta-CondensedLight.otf');
@@ -8,6 +9,7 @@
   src: url('assets/fonts/JunicodeTwoBeta-CondensedLightItalic.otf');
 }
 
+/* main styling */
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -24,7 +26,6 @@ body {
 }
 
 /* links */
-
 a:link {
   color: black;
   text-decoration: none;
@@ -44,6 +45,7 @@ a:active {
   color: #9237ed;
 }
 
+/* list styling */
 ul {
   list-style-type: none;
   list-style-image: url('assets/img/burst.svg');
@@ -58,6 +60,7 @@ li span {
   left: 2rem;
 }
 
+/* image styling */
 .img {
   margin-top: 3rem;
   margin-left: 5.5rem;
