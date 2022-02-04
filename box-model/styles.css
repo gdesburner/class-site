@@ -3,10 +3,12 @@
 }
 
 body {
+  font-family: 'Cardo', serif;
 }
 
 p {
   background-color: lightblue;
+  font-style: italic;
   padding: 30px;
   border: 10px solid thistle;
   margin: 30px;
