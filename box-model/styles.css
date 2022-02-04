@@ -2,8 +2,32 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'dauphineitalic';
+    src: url('assets/fonts/dauphineitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/dauphineitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dauphineregular';
+    src: url('assets/fonts/dauphineregular-webfont.woff2') format('woff2'),
+         url('assets/fonts/dauphineregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'junicode_two_betaCnLt';
+    src: url('assets/fonts/junicodetwobeta-condensedlight-webfont.woff2') format('woff2'),
+         url('assets/fonts/junicodetwobeta-condensedlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-  font-family: 'Cardo', serif;
+  font-family: 'dauphineitalic';
 }
 
 p {
