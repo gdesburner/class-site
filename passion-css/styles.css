@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'garamondlibreregular';
-  src: url('assets/GaramondLibre-Regular.otf') format('otf'),
+  src: url('assets/GaramondLibre-Regular.otf');
   font-weight: normal;
   font-style: normal;
   unicode-range: U+0025-00FF, U+4??;
