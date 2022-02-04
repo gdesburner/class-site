@@ -1,3 +1,8 @@
+/* master rules / wildcards */
+* {
+  box-sizing: border-box;
+}
+
 /* fonts */
 @font-face {
   font-family: 'junicodebeta-condensedlight';
@@ -20,9 +25,9 @@ body {
   font-family: 'junicodebeta-condensedlight';
   font-size: 2rem;
   line-height: 1.2;
+  max-width: 800px;
   margin-top: -1rem;
   margin-left: 2rem;
-  margin-right: 500px;
 }
 
 /* links */
