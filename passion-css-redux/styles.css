@@ -1,0 +1,104 @@
+/* master rules / wildcards */
+
+* {
+  box-sizing: border-box;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: base-mono-narrow,monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: base-mono-narrow,monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: base-mono-narrow,monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* main styling */
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: base-mono-narrow,monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.newspaper {
+  max-width: 1800px;
+  column-count: 3;
+  column-gap: 2.2rem;
+  column-rule-style: dotted;
+  column-rule-width: 1px;
+  display: inline-block;
+  text-align; left;
+}
+
+/* -------------------------------------- */
+
+/* typography */
+p, h1, h5, h6, ol, ul, dl, dt {
+  font-size: 1rem;
+  font-weight: 300;
+  /* text-align: center; */
+}
+
+/* h1 {
+  font-family: base-mono-narrow,monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 7rem;
+  letter-spacing: 20px;
+} */
+
+/* links */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9237ed;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  font-family: 'junicodebeta-condensedlightitalic';
+  padding: 20px;
+  background-color: transparent;
+}
+
+a:active {
+  color: #9237ed;
+}
+
+/* list styling */
+ul {
+
+}
+
+li span {
+  position: relative;
+  left: 2rem;
+}
+
+
+/* image styling */
+.img {
+
+}

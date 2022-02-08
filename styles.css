@@ -44,6 +44,8 @@ a:visited {
 a:hover {
   color: black;
   font-family: 'junicodebeta-condensedlightitalic';
+  padding: 20px;
+  background-color: transparent;
 }
 
 a:active {
@@ -64,6 +66,7 @@ li span {
   position: relative;
   left: 2rem;
 }
+
 
 /* image styling */
 .img {
