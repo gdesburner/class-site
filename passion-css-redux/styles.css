@@ -1,55 +1,51 @@
 /* master rules / wildcards */
-
 * {
   box-sizing: border-box;
 }
 
 /* fonts */
-
 @font-face {
-  font-family: base-mono-narrow,monospace;
+  font-family: base-mono-narrow, monospace;
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: base-mono-narrow,monospace;
+  font-family: base-mono-narrow, monospace;
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: base-mono-narrow,monospace;
+  font-family: base-mono-narrow, monospace;
   font-weight: 700;
   font-style: normal;
 }
 
-
 /* main styling */
-
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: base-mono-narrow,monospace;
+  font-family: base-mono-narrow, monospace;
   font-weight: 400;
   font-style: normal;
 }
 
 .newspaper {
-  max-width: 1800px;
+  max-width: 1200px;
   column-count: 3;
   column-gap: 2.2rem;
   column-rule-style: dotted;
   column-rule-width: 1px;
   display: inline-block;
-  text-align; left;
+  text-align;
+  left;
 }
 
 /* -------------------------------------- */
-
 /* typography */
 p, h1, h5, h6, ol, ul, dl, dt {
   font-size: 1rem;
@@ -64,7 +60,6 @@ p, h1, h5, h6, ol, ul, dl, dt {
   font-size: 7rem;
   letter-spacing: 20px;
 } */
-
 /* links */
 a:link {
   color: black;
@@ -88,17 +83,12 @@ a:active {
 }
 
 /* list styling */
-ul {
-
-}
+ul {}
 
 li span {
   position: relative;
   left: 2rem;
 }
 
-
 /* image styling */
-.img {
-
-}
+.img {}

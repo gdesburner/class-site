@@ -39,9 +39,10 @@ body {
 
 .absolute {
   position: absolute;
-  background: lightblue;
-  width: 100px;
-  height: 100px;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid lightblue;
+  border-left: 100px solid transparent;
   bottom: 20px;
   right: 20px;
 }
