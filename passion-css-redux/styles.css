@@ -49,7 +49,7 @@ body {
   letter-spacing: 20px;
 }
 
-.newspaper {
+.tri-column {
   max-width: 900px;
   column-count: 3;
   column-gap: 2.2rem;
@@ -60,7 +60,16 @@ body {
   text-align: left;
 }
 
-.subtitle {}
+.duo-column {
+  max-width: 900px;
+  column-count: 2;
+  column-gap: 2.2rem;
+  column-rule-style: dotted;
+  column-rule-width: 1px;
+  grid-column-start: auto;
+  margin: 60px auto;
+  text-align: left;
+}
 
 /* -------------------------------------- */
 /* typography */
@@ -79,6 +88,12 @@ h5 {
   text-align: center;
 }
 
+h6 {
+  text-align: center;
+  padding-top: 0;
+  margin: 0;
+}
+
 aside {
   font-size: .25rem;
   text-align: center;
@@ -93,74 +108,90 @@ aside:hover {
   text-align: center;
 }
 
-/* links */
-a:link {
-  color: black;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #9237ed;
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-  font-family: 'junicodebeta-condensedlightitalic';
-  padding: 20px;
-  background-color: transparent;
-}
-
-a:active {
-  color: #9237ed;
-}
-
-a span:hover {
-
-}
-
 /* list styling */
-ul {}
+ol {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
 
 li span {
   position: relative;
   left: 2rem;
 }
 
+dt {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: .5rem;
+  letter-spacing: 20px;
+}
+
+dd {
+  text-align: center;
+}
+
+.descriptive-list {
+  break-before: column;
+}
+
 /* image styling */
 .img {}
 
-/* .thumb {
-  position: relative;
+/* video row */
+.video-box {
+  margin-top: -20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  /* padding-bottom: 60px; */
+  text-align: center;
+  border: 1px dashed black;
+}
+
+iframe {
+  text-align: center;
+  border: 1px dashed black;
+}
+
+/* link styling */
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.hb-link {
+  margin-top: 200px;
+  text-align: center;
 }
 
 .thumb img {
   border: none;
-  width: 70vw;
-  float: left;
-  margin-left: 0px;
+  width: 100vw;
+  float: center;
 }
 
 .thumb:hover {
   border: 0;
+  /* IE6 needs this to show large image */
   z-index: 1;
 }
 
 .thumb span {
   position: absolute;
   visibility: hidden;
-  width: 70vw;
+  width: 25vw;
 }
 
 .thumb:hover span {
   cursor: pointer;
-  position: sticky;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
+  position: relative;
   visibility: visible;
   z-index: 99;
   float: left;
   width: 0px;
-} */
+}
