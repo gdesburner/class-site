@@ -30,7 +30,7 @@ html {
 
 body {
   font-family: base-mono-narrow, monospace;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   margin-top: 120px;
 }
@@ -50,26 +50,23 @@ body {
 }
 
 .newspaper {
-  max-width: 1200px;
+  max-width: 900px;
   column-count: 3;
   column-gap: 2.2rem;
   column-rule-style: dotted;
   column-rule-width: 1px;
-  display: inline-block;
+  grid-column-start: auto;
+  margin: 60px auto;
   text-align: left;
 }
 
-.subtitle {
-  
-}
-
+.subtitle {}
 
 /* -------------------------------------- */
 /* typography */
 p, h1, h5, h6, ol, ul, dl, dt {
   font-size: 1rem;
   font-weight: 300;
-
   /* text-align: center; */
 }
 
@@ -77,6 +74,25 @@ h1 {
   text-align: center;
   letter-spacing: 20px;
 }
+
+h5 {
+  text-align: center;
+}
+
+aside {
+  font-size: .25rem;
+  text-align; center;
+}
+
+aside:hover {
+  font-size: .75rem;
+  text-align; center;
+}
+
+.sidenote {
+  text-align: center;
+}
+
 
 /* links */
 a:link {
@@ -110,3 +126,38 @@ li span {
 
 /* image styling */
 .img {}
+
+/* .thumb {
+  position: relative;
+}
+
+.thumb img {
+  border: none;
+  width: 70vw;
+  float: left;
+  margin-left: 0px;
+}
+
+.thumb:hover {
+  border: 0;
+  z-index: 1;
+}
+
+.thumb span {
+  position: absolute;
+  visibility: hidden;
+  width: 70vw;
+}
+
+.thumb:hover span {
+  cursor: pointer;
+  position: sticky;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  visibility: visible;
+  z-index: 99;
+  float: left;
+  width: 0px;
+} */
