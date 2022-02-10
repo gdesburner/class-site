@@ -81,18 +81,17 @@ h5 {
 
 aside {
   font-size: .25rem;
-  text-align; center;
+  text-align: center;
 }
 
 aside:hover {
   font-size: .75rem;
-  text-align; center;
-}
-
-.sidenote {
   text-align: center;
 }
 
+.fragment {
+  text-align: center;
+}
 
 /* links */
 a:link {
@@ -114,6 +113,10 @@ a:hover {
 
 a:active {
   color: #9237ed;
+}
+
+a span:hover {
+
 }
 
 /* list styling */
