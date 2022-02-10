@@ -173,6 +173,7 @@ a:hover {
   border: none;
   width: 100vw;
   float: center;
+  filter: invert(26%) sepia(99%) saturate(6088%) hue-rotate(20deg) brightness(90%) contrast(98%);
 }
 
 .thumb:hover {
