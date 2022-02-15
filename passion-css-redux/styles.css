@@ -172,7 +172,7 @@ a:hover {
 .thumb img {
   border: none;
   width: 100vw;
-  float: center;
+  /* float: center; */
   filter: invert(26%) sepia(99%) saturate(6088%) hue-rotate(20deg) brightness(90%) contrast(98%);
 }
 
