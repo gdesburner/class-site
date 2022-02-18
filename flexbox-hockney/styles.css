@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-
 }
 
 .main-container {
@@ -38,15 +37,15 @@ body {
 
 .house {
   background-color: #B48F7D;
-  height:140px;
-  width: 500px;
+  height:44%;
+  width: 75%;
   display: flex;
   flex-direction: column-reverse;
 }
 
 .windows {
   background-color: #C9C5BD;
-  height:140px;
+  height:100%;
   width: 275px;
   display: flex;
   flex-direction: row;
@@ -118,7 +117,14 @@ body {
   height:8%;
   width: 80%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
+}
+
+.ground-edge {
+  background-color: #F3E4CF;
+  height:2%;
+  width:100%;
+  display: flex;
 }
 
 .pool {
@@ -131,7 +137,7 @@ body {
 
 .pool-edge {
   background-color: #006AA5;
-  height:2%;
+  height:4%;
   width: 100%;
   display: flex;
   flex-direction: row;
