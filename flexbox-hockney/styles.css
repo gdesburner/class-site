@@ -35,14 +35,31 @@ body {
   flex-direction: column-reverse;
 }
 
+.sky-box {
+  position:absolute;
+  height:306px;
+  width: 640px;
+  display: flex;
+  flex-direction: column-reverse;
+
+
+}
+
+.tree {
+  background-color:brown;
+  height:70%;
+  width: .5%;
+  z-index:90;
+  position: relative;
+}
+
+
 .house {
   background-color: #B48F7D;
   height:44%;
   width: 75%;
   display: flex;
   flex-direction: column;
-  
-
 }
 
 .house-shadow {
@@ -53,7 +70,6 @@ body {
   width: 480px;
   display: flex;
   z-index:99;
-
 }
 
 .windows {
@@ -168,7 +184,7 @@ body {
 }
 
 .pool:hover span {
-	cursor: pointer;
+	cursor:url('assets/splash-cursor.png'),pointer;
 	position: sticky;
 	position: -webkit-sticky;
 	position: -moz-sticky;
@@ -176,6 +192,5 @@ body {
  	position: -o-sticky;
 	visibility:visible;
 	z-index: 99;
-	float: left;
-	width: 0px;
+	width: 10px;
 }
