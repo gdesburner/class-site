@@ -8,8 +8,8 @@ body {
 
 .main-container {
   background-color: white;
-  width:100%;
-  height:100vh;
+  width: 100%;
+  height: 100vh;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -22,41 +22,37 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height:800px;
-  width:800px;
-
+  height: 800px;
+  width: 800px;
 }
 
 .sky {
   background-color: #86C4E6;
-  height:38%;
+  height: 38%;
   width: 80%;
   display: flex;
   flex-direction: column-reverse;
 }
 
 .sky-box {
-  position:absolute;
-  height:306px;
+  position: absolute;
+  height: 306px;
   width: 640px;
   display: flex;
   flex-direction: column-reverse;
-
-
 }
 
 .tree {
-  background-color:brown;
-  height:70%;
+  background-color: brown;
+  height: 70%;
   width: .5%;
-  z-index:90;
+  z-index: 90;
   position: relative;
 }
 
-
 .house {
   background-color: #B48F7D;
-  height:44%;
+  height: 44%;
   width: 75%;
   display: flex;
   flex-direction: column;
@@ -64,37 +60,37 @@ body {
 
 .house-shadow {
   background-color: black;
-  position:absolute;
-  opacity:20%;
-  height:2%;
+  position: absolute;
+  opacity: 20%;
+  height: 2%;
   width: 480px;
   display: flex;
-  z-index:99;
+  z-index: 99;
 }
 
 .windows {
   background-color: #C9C5BD;
-  height:100%;
+  height: 100%;
   width: 275px;
   display: flex;
   flex-direction: row;
   /* justify-content: center; */
   align-items: center;
-  gap:10px;
+  gap: 10px;
 }
 
 .tri-glass-left {
   background-color: #C9C5BD;
-  height:90%;
+  height: 90%;
   width: 110px;
   display: flex;
   flex-direction: row;
-  gap:4px;
+  gap: 4px;
 }
 
 .tri-glass-left-1 {
   background-color: #929696;
-  height:100%;
+  height: 100%;
   width: 48px;
   display: flex;
   flex-direction: row;
@@ -102,7 +98,7 @@ body {
 
 .tri-glass-left-2 {
   background-color: #929696;
-  height:100%;
+  height: 100%;
   width: 48px;
   display: flex;
   flex-direction: row;
@@ -110,16 +106,16 @@ body {
 
 .tri-glass-right {
   background-color: #C9C5BD;
-  height:90%;
+  height: 90%;
   width: 146px;
   display: flex;
   flex-direction: row;
-  gap:4px;
+  gap: 4px;
 }
 
 .tri-glass-right-1 {
   background-color: #929696;
-  height:100%;
+  height: 100%;
   width: 48px;
   display: flex;
   flex-direction: row;
@@ -127,7 +123,7 @@ body {
 
 .tri-glass-right-2 {
   background-color: #929696;
-  height:100%;
+  height: 100%;
   width: 48px;
   display: flex;
   flex-direction: row;
@@ -135,7 +131,7 @@ body {
 
 .tri-glass-right-3 {
   background-color: #929696;
-  height:100%;
+  height: 100%;
   width: 48px;
   display: flex;
   flex-direction: row;
@@ -143,7 +139,7 @@ body {
 
 .ground {
   background-color: #CEAFA1;
-  height:8%;
+  height: 8%;
   width: 80%;
   display: flex;
   flex-direction: column-reverse;
@@ -151,14 +147,14 @@ body {
 
 .ground-edge {
   background-color: #F3E4CF;
-  height:2%;
-  width:100%;
+  height: 2%;
+  width: 100%;
   display: flex;
 }
 
 .pool {
   background-color: #4D9AB2;
-  height:32%;
+  height: 32%;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -168,29 +164,29 @@ body {
 
 .pool-edge {
   background-color: #006AA5;
-  height:4%;
+  height: 4%;
   width: 100%;
   display: flex;
   flex-direction: row;
 }
 
 .pool:hover {
- cursor:url('assets/splash-cursor.png'),pointer;
+  cursor: url('assets/splash-cursor.png'), pointer;
 }
 
 .pool span {
-	position:absolute;
-	visibility:hidden;
+  position: absolute;
+  visibility: hidden;
 }
 
 .pool:hover span {
-	cursor:url('assets/splash-cursor.png'),pointer;
-	position: sticky;
-	position: -webkit-sticky;
-	position: -moz-sticky;
- 	position: -ms-sticky;
- 	position: -o-sticky;
-	visibility:visible;
-	z-index: 99;
-	width: 10px;
+  cursor: url('assets/splash-cursor.png'), pointer;
+  position: sticky;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  visibility: visible;
+  z-index: 99;
+  width: 10px;
 }
