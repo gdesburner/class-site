@@ -39,15 +39,25 @@ body {
   height: 306px;
   width: 640px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
 }
 
-.tree {
-  background-color: brown;
+.tree-right {
+  background-color: #9C9362;
   height: 70%;
-  width: .5%;
+  width: .75%;
   z-index: 90;
   position: relative;
+  right:100px;
+}
+
+.tree-left {
+  background-color: #9C9362;
+  height: 70%;
+  width: .75%;
+  z-index: 90;
+  position: relative;
+  right:400px;
 }
 
 .house {
