@@ -35,23 +35,22 @@ body {
 }
 
 
+.tree-left {
+  background-color: #9C9362;
+  height: 70%;
+  width: .5%;
+  z-index: 90;
+  position: absolute;
+  right:400px;
+}
 
 .tree-right {
   background-color: #9C9362;
   height: 70%;
   width: .5%;
   z-index: 90;
-  position: relative;
+  position: absolute;
   right:100px;
-}
-
-.tree-left {
-  background-color: #9C9362;
-  height: 70%;
-  width: .5%;
-  z-index: 90;
-  position: relative;
-  right:400px;
 }
 
 .house {
