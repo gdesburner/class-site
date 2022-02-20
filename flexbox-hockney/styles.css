@@ -66,6 +66,28 @@ body {
   position; relative;
 }
 
+.roof-hatch {
+  background-color: #E9EDF1;
+  height: 3px;
+  width: 95px;
+  z-index: 100;
+  position:absolute;
+  bottom:146px;
+  left:310px;
+}
+
+.roof-lip {
+  border-bottom: 2px solid #F3E4CF;
+  border-right:3px solid transparent;
+  transform: rotateX(180deg);
+  height: 2px;
+  width: 76.5%;
+  z-index: 100;
+  position:absolute;
+  bottom:144px;
+}
+
+
 .roof {
   border-bottom: 10px solid #D6C5A9;
   border-right:7.5px solid transparent;
@@ -82,7 +104,7 @@ body {
   position: absolute;
   opacity: 20%;
   height: 5%;
-  width: 480px;
+  width: 75%;
   display: flex;
   z-index: 99;
 }
