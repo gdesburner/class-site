@@ -171,14 +171,28 @@ body {
   align-content: center;
 }
 
+.pool:hover {
+  cursor: url('assets/splash-cursor.png'), pointer;
+}
+
+
+.splash {
+  position:absolute;
+  width:40%;
+  opacity:0;
+  align-self: flex-end;
+}
+
+.splash:hover {
+  position:absolute;
+  z-index:10;
+  opacity: 1;
+}
+
 .pool-edge {
   background-color: #006AA5;
   height: 4%;
   width: 100%;
   display: flex;
   flex-direction: row;
-}
-
-.pool:hover {
-  cursor: url('assets/splash-cursor.png'), pointer;
 }
