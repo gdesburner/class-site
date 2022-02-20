@@ -55,6 +55,13 @@ body {
   left: 500px;
 }
 
+.grass {
+  position:absolute;
+  width:28%;
+  left: 42.5%;
+  z-index: 99;
+}
+
 .house {
   background-color: #B48F7D;
   height: 44%;
