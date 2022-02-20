@@ -35,7 +35,6 @@ body {
   align-items: flex-end;
   justify-content: flex-end;
   position:relative;
-
 }
 
 .tree-left {
@@ -64,7 +63,17 @@ body {
   align-self: flex-end;
   flex-direction: column;
   z-index: 10;
+  position; relative;
+}
 
+.roof {
+  border-bottom: 10px solid #D6C5A9;
+  border-right:7.5px solid transparent;
+  transform: rotateX(180deg);
+  height: 5px;
+  width: 76%;
+  z-index: 100;
+  position:absolute;
 }
 
 .house-shadow {
