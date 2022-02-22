@@ -34,7 +34,7 @@ body {
   flex-direction: row-reverse;
   align-items: flex-end;
   justify-content: flex-end;
-  position:relative;
+  position: relative;
 }
 
 .tree-left {
@@ -42,7 +42,7 @@ body {
   height: 70%;
   width: .65%;
   z-index: 1;
-  position:absolute;
+  position: absolute;
   left: 450px;
 }
 
@@ -51,13 +51,13 @@ body {
   height: 70%;
   width: .65%;
   z-index: 1;
-  position:absolute;
+  position: absolute;
   left: 500px;
 }
 
 .grass {
-  position:absolute;
-  width:28%;
+  position: absolute;
+  width: 28%;
   left: 42.5%;
   z-index: 99;
 }
@@ -70,7 +70,8 @@ body {
   align-self: flex-end;
   flex-direction: column;
   z-index: 10;
-  position; relative;
+  position;
+  relative;
 }
 
 .roof-hatch {
@@ -78,32 +79,31 @@ body {
   height: 3px;
   width: 95px;
   z-index: 100;
-  position:absolute;
-  bottom:146px;
-  left:310px;
+  position: absolute;
+  bottom: 146px;
+  left: 310px;
 }
 
 .roof-lip {
   border-bottom: 2px solid #F3E4CF;
-  border-right:3px solid transparent;
+  border-right: 3px solid transparent;
   transform: rotateX(180deg);
   height: 2px;
   width: 76.5%;
   z-index: 100;
-  position:absolute;
-  bottom:144px;
+  position: absolute;
+  bottom: 144px;
 }
-
 
 .roof {
   border-bottom: 10px solid #D6C5A9;
-  border-right:7.5px solid transparent;
+  border-right: 7.5px solid transparent;
   transform: rotateX(180deg);
   height: 5px;
   width: 76%;
   z-index: 100;
-  position:absolute;
-  bottom:134px;
+  position: absolute;
+  bottom: 134px;
 }
 
 .house-shadow {
@@ -214,21 +214,20 @@ body {
   cursor: url('assets/splash-cursor.png'), pointer;
 }
 
-
 .splash {
-  position:absolute;
-  width:30%;
-  opacity:0;
+  position: absolute;
+  width: 30%;
+  opacity: 0;
   align-self: flex-end;
   bottom: 150px;
-  transition: all .25s;
+  transition: all .2s;
 }
 
 .splash:hover {
-  position:absolute;
-  z-index:10;
+  position: absolute;
+  z-index: 10;
   opacity: 1;
-  width:35%;
+  width: 35%;
 }
 
 .pool-edge {
