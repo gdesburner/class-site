@@ -21,7 +21,7 @@ body {
   width: 20vw;
   height: 20vw;
   border-radius: 50%;
-  animation: phase 180s infinite alternate;
+  animation: phase 60s infinite alternate linear;
 }
 
 .square {
