@@ -214,6 +214,7 @@ body {
   cursor: url('assets/splash-cursor.png'), pointer;
 }
 
+
 .splash {
   position: absolute;
   width: 30%;
@@ -223,12 +224,13 @@ body {
   transition: all .25s;
 }
 
-.splash:hover {
+.pool:hover .splash{
   position: absolute;
   z-index: 10;
   opacity: 1;
   width: 35%;
 }
+
 
 .pool-edge {
   background-color: #006AA5;
