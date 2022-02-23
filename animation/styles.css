@@ -31,6 +31,17 @@ body {
   animation: rotate 10s infinite linear;
 }
 
+.runner {
+  background-color: rgb(245, 242, 7);
+  width:800px;
+  height:10px;
+  position:fixed;
+  bottom:0;
+  left:0;
+  animation: run 5s infinite linear ;
+  box-shadow: 0px -450px 200px 250px #fcfcfc;
+}
+
 /* Animation */
 @keyframes phase {
   0% {
@@ -58,5 +69,17 @@ body {
   100% {
     background-color: rgb(255, 0, 0);
     transform: rotate(360deg);
+  }
+}
+
+@keyframes run {
+  0% {
+    transform:translateX(-800px);
+    background-color: rgb(255, 0, 0);
+  }
+
+  100% {
+    transform:translateX(120vw);
+    background-color: rgb(246, 9, 215);
   }
 }
