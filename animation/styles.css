@@ -3,7 +3,7 @@
 }
 
 body {
-  margin:0;
+  margin: 0;
   background-color: rgb(175, 82, 138);
 }
 
@@ -22,22 +22,16 @@ body {
   height: 20vw;
   border-radius: 50%;
   animation: phase 180s infinite alternate;
-
-
 }
 
 .square {
   background-color: rgb(255, 0, 0);
   width: 20vw;
   height: 20vw;
-  animation: pulse 7s infinite alternate;
-
+  animation: rotate 10s infinite linear;
 }
 
-
-
 /* Animation */
-
 @keyframes phase {
   0% {
     background-color: rgb(242, 94, 0);
@@ -50,10 +44,19 @@ body {
   }
 }
 
-@keyframes pulse {
+@keyframes rotate {
   0% {
-    background-color: rgb(255, 0, 0);}
+    background-color: rgb(255, 0, 0);
+    transform: rotate(0deg);
+  }
+
+  50% {
+    background-color: rgb(246, 9, 215);
+
+  }
 
   100% {
-    background-color: rgb(246, 9, 215);}
+    background-color: rgb(255, 0, 0);
+    transform: rotate(360deg);
+  }
 }
