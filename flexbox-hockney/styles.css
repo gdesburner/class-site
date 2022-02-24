@@ -16,6 +16,15 @@ body {
   align-items: center;
 }
 
+.canvas-border {
+  border: 90px solid #F3E4CF;
+  position: absolute;
+  display:flex;
+  height: 800px;
+  width: 800px;
+  z-index: 1000;
+}
+
 .main-canvas {
   background-color: #F3E4CF;
   display: flex;
@@ -214,28 +223,39 @@ body {
   cursor: url('assets/splash-cursor.png'), pointer;
 }
 
-
 .splash {
-  position: absolute;
-  width: 30%;
+  position: fixed;
+  width: 400px;
   opacity: 0;
-  align-self: flex-end;
-  bottom: 150px;
+  align-items: center;
+  top: 475px;
+  transform: scale(.75);
   transition: all .25s;
 }
 
-.pool:hover .splash{
-  position: absolute;
+.pool:hover .splash {
+  position: fixed;
   z-index: 10;
   opacity: 1;
-  width: 35%;
+  width: 400px;
+  top: 475px;
+  transform: scale(1.25);
 }
-
 
 .pool-edge {
   background-color: #006AA5;
   height: 4%;
   width: 100%;
-  display: flex;
-  flex-direction: row;
+}
+
+.diving-board {
+  background-color: #CBC08F;
+  position: absolute;
+  align-self: flex-end;
+  width: 12%;
+  height: 18%;
+  right: 500px;
+  bottom: 100px;
+  transform: scale(.875, 0.95) rotate(-5deg) skew(50deg, 2deg);
+  z-index: 999;
 }
