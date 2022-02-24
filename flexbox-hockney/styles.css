@@ -16,14 +16,7 @@ body {
   align-items: center;
 }
 
-.canvas-border {
-  border: 90px solid #F3E4CF;
-  position: absolute;
-  display:flex;
-  height: 800px;
-  width: 800px;
-  z-index: 1000;
-}
+
 
 .main-canvas {
   background-color: #F3E4CF;
@@ -33,6 +26,7 @@ body {
   justify-content: center;
   height: 800px;
   width: 800px;
+
 }
 
 .sky {
