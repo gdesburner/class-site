@@ -8,26 +8,27 @@ body {
 }
 
 
-/* .pond-container {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
+.pond-container {
+  position: relative;
+  /* display:flex;
+  flex-direction: column; */
+
+}
 
 /* .pond-5,.pond-4,.pond-3,.pond-2,.pond-1{
-  position:relative;
+  position:absolute;
 } */
 
 .pond-5 {
-  fill: yellow;
+  
+  fill: rgb(179, 28, 104);
   z-index: 22;
-  background-image: radial-gradient(red,yellow,green);
+  background-image: radial-gradient(red,purple,red);
 }
 
 .pond-4 {
 
-  fill: blue;
+  fill: rgb(198, 117, 226);
   z-index: 33;
 }
 
@@ -39,12 +40,12 @@ body {
 
 .pond-2 {
 
-  fill: red;
+  fill: rgb(131, 65, 150);
   z-index: 55;
 }
 
 .pond-1 {
 
-  fill: green;
+  fill: rgb(63, 10, 120);
   z-index: 66;
 }
