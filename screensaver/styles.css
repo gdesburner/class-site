@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #F0E4DB;
+}
+
+
+/* .pond-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .pond-5,.pond-4,.pond-3,.pond-2,.pond-1{
+  position:relative;
+} */
+
+.pond-5 {
+  fill: yellow;
+  z-index: 22;
+  background-image: radial-gradient(red,yellow,green);
+}
+
+.pond-4 {
+
+  fill: blue;
+  z-index: 33;
+}
+
+.pond-3 {
+
+  fill: purple;
+  z-index: 44;
+}
+
+.pond-2 {
+
+  fill: red;
+  z-index: 55;
+}
+
+.pond-1 {
+
+  fill: green;
+  z-index: 66;
+}
