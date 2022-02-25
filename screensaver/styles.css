@@ -7,29 +7,23 @@ body {
   background-color: #F0E4DB;
 }
 
-
 .pond-container {
   position: relative;
-  /* display:flex;
-  flex-direction: column; */
-
+  width:75vw;
 }
 
-/* .pond-5,.pond-4,.pond-3,.pond-2,.pond-1{
-  position:absolute;
-} */
-
 .pond-5 {
-  
   fill: rgb(179, 28, 104);
   z-index: 22;
-  background-image: radial-gradient(red,purple,red);
+  width:100%;
+
 }
 
 .pond-4 {
-
   fill: rgb(198, 117, 226);
   z-index: 33;
+  width:50%;
+
 }
 
 .pond-3 {
