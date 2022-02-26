@@ -19,7 +19,7 @@ body {
 }
 
 .pond {
-  height: 90%;
+  height: 85%;
   margin: 0 auto;
   display: block;
 }
@@ -28,8 +28,7 @@ body {
   fill: url(#RadialGradient5);
   z-index: 22;
   padding: 4%;
-  /* animation: water 4s infinite; */
-
+  /* animation: water 1s infinite; */
 }
 
 .pond-4 {
@@ -57,8 +56,8 @@ body {
 }
 
 /* Animation */
-
-/* @keyframes water {
+/*
+@keyframes water {
   0% {
     fill: url(#RadialGradient5);
   }
@@ -67,7 +66,11 @@ body {
     fill: url(#RadialGradient4);
   }
 
+  50% {
+    fill: url(#RadialGradient3);
+  }
+
   100% {
-    fill: url(#RadialGradient5);
+    fill: url(#RadialGradient2);
   }
 } */
