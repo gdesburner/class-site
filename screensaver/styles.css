@@ -28,6 +28,7 @@ body {
   fill: url(#RadialGradient5);
   z-index: 22;
   padding: 4%;
+  animation: water 4s infinite;
 
 }
 
@@ -56,3 +57,17 @@ body {
 }
 
 /* Animation */
+
+/* @keyframes water {
+  0% {
+    fill: url(#RadialGradient5);
+  }
+
+  25% {
+    fill: url(#RadialGradient4);
+  }
+
+  100% {
+    fill: url(#RadialGradient5);
+  }
+} */
