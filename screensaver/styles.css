@@ -7,6 +7,88 @@ body {
   background-color: #f0e4db;
 }
 
+
+
+/* Background Trapezoids */
+.trapezoid-container {
+  width: 100vw;
+  height: 800px;
+  z-index:1;
+  justify-content: space-around;
+  align-items: center;
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+
+}
+
+.trapezoid-1 {
+    width: 300px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 160px solid #F4200F;
+    transform:rotate(-90deg);
+}
+
+.trapezoid-2 {
+  width: 300px;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 200px solid #F4200F;
+  transform:rotate(90deg);
+}
+
+.trapezoid-3 {
+  background-color: #F4200F;
+  height:30vh;
+	width: 25vw;
+}
+
+.trapezoid-4 {
+  background-color: #F4200F;
+  height:30vh;
+	width: 25vw;
+}
+
+.trapezoid-5 {
+  background-color: #F4200F;
+  height:30vh;
+	width: 25vw;
+}
+
+.trapezoid-6 {
+  background-color: #F4200F;
+  height:30vh;
+	width: 25vw;
+}
+
+.trapezoid-7 {
+  background-color: #F4200F;
+  height:30vh;
+	width: 25vw;
+}
+
+.trapezoid-8 {
+  background-color: #F4200F;
+  height:30vh;
+	width: 15vw;
+}
+
+.trapezoid-9 {
+  background-color: #F4200F;
+  height:30vh;
+	width: 15vw;
+}
+
+.trapezoid-10 {
+  background-color: #F4200F;
+  height:30vh;
+	width: 15vw;
+}
+
+
 /* Concentric Ponds */
 
 .pond-container {
@@ -24,11 +106,11 @@ body {
   display: block;
 }
 
+
 .pond-5 {
   fill: url(#RadialGradient5);
   z-index: 22;
   padding: 4%;
-  /* animation: water 1s infinite; */
 }
 
 .pond-4 {
@@ -56,21 +138,15 @@ body {
 }
 
 /* Animation */
-/*
-@keyframes water {
+
+@keyframes rotate {
   0% {
-    fill: url(#RadialGradient5);
+    transform: rotate(0deg);
   }
 
-  25% {
-    fill: url(#RadialGradient4);
-  }
 
-  50% {
-    fill: url(#RadialGradient3);
-  }
 
   100% {
-    fill: url(#RadialGradient2);
+    transform: rotate(360deg);
   }
-} */
+}
