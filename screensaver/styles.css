@@ -9,86 +9,210 @@ body {
 
 
 
-/* Background Trapezoids */
-.trapezoid-container {
+/* Background boxs */
+.box-container {
   width: 100vw;
-  height: 800px;
+  height: 100vh;
   z-index:1;
   justify-content: space-around;
   align-items: center;
   display:flex;
   flex-wrap:wrap;
-  gap:20px;
-
 }
 
-.trapezoid-1 {
-    width: 300px;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 30px solid transparent;
-    border-bottom: 160px solid #F4200F;
-    transform:rotate(-90deg);
+.box-1 {
+    width: 25vw;
+    height: 35vh;
+    background: linear-gradient(-45deg, #009B3A, #FEDF00, #009B3A, #002776, #009B3A);
+    background-size: 200% 200%;
+    animation: gradient 24s infinite linear;
 }
 
-.trapezoid-2 {
-  width: 300px;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 200px solid #F4200F;
-  transform:rotate(90deg);
+.box-2 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(0deg, #009B3A, #FEDF00, #009B3A, #002776, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient-4 24s infinite linear;
 }
 
-.trapezoid-3 {
-  background-color: #F4200F;
-  height:30vh;
-	width: 25vw;
+.box-3 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(0deg, #009B3A, #FEDF00, #009B3A, #002776, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient-4 24s infinite linear;
 }
 
-.trapezoid-4 {
-  background-color: #F4200F;
-  height:30vh;
-	width: 25vw;
+.box-4 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(45deg, #009B3A, #FEDF00, #009B3A, #002776, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient-2 24s infinite linear;
 }
 
-.trapezoid-5 {
-  background-color: #F4200F;
-  height:30vh;
-	width: 25vw;
+.box-5 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(-90deg, #009B3A, #FEDF00, #009B3A, #002776, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient 24s infinite linear;
 }
 
-.trapezoid-6 {
-  background-color: #F4200F;
-  height:30vh;
-	width: 25vw;
+.box-6 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(-90deg, #009B3A, #002776, #009B3A, #FEDF00, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient 18s infinite linear;
 }
 
-.trapezoid-7 {
-  background-color: #F4200F;
-  height:30vh;
-	width: 25vw;
+.box-7 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(90deg, #009B3A, #002776, #009B3A, #FEDF00, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient-2 18s infinite linear;
 }
 
-.trapezoid-8 {
-  background-color: #F4200F;
-  height:30vh;
-	width: 15vw;
+.box-8 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(90deg, #009B3A, #FEDF00, #009B3A, #002776, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient-2 24s infinite linear;
 }
 
-.trapezoid-9 {
-  background-color: #F4200F;
-  height:30vh;
-	width: 15vw;
+.box-9 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(45deg, #009B3A, #002776, #009B3A, #FEDF00, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient 24s infinite linear;
 }
 
-.trapezoid-10 {
-  background-color: #F4200F;
-  height:30vh;
-	width: 15vw;
+.box-10 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(0deg, #009B3A, #002776, #009B3A, #FEDF00, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient-3 24s infinite linear;
+}
+
+.box-11 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(0deg, #009B3A, #002776, #009B3A, #FEDF00, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient-3 24s infinite linear;
+}
+
+.box-12 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(-45deg, #009B3A, #002776, #009B3A, #FEDF00, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient-2 24s infinite linear;
 }
 
 
+
+/* .box-1 {
+    width: 25vw;
+    height: 35vh;
+    background: linear-gradient(-45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+    background-size: 200% 200%;
+    animation: gradient 12s infinite linear;
+}
+
+.box-2 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(-45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite linear;
+}
+
+.box-3 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite linear;
+}
+
+.box-4 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite linear;
+}
+
+.box-5 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(-45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite linear;
+}
+
+.box-6 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(-45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite linear;
+}
+
+.box-7 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite linear;
+}
+
+.box-8 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite linear;
+}
+
+.box-9 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(-45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite linear;
+}
+
+.box-10 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(-45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite linear;
+}
+
+.box-11 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite linear;
+}
+
+.box-12 {
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(45deg, #F4200F, #E00803, #B20804, #E00803, #F4200F);
+  background-size: 200% 200%;
+  animation: gradient 12s infinite linear;
+} */
 /* Concentric Ponds */
 
 .pond-container {
@@ -139,14 +263,76 @@ body {
 
 /* Animation */
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
+@keyframes gradient {
 
+    0% {
+    background-position: left;
+    }
 
+    50% {
+      background-position: right;
+    }
 
-  100% {
-    transform: rotate(360deg);
-  }
+    100% {
+      background-position: left;
+    }
 }
+
+@keyframes gradient-2 {
+
+    0% {
+    background-position: right;
+    }
+
+    50% {
+      background-position: left;
+    }
+
+    100% {
+      background-position: right;
+    }
+}
+
+@keyframes gradient-3 {
+
+    0% {
+    background-position: bottom;
+    }
+
+    50% {
+      background-position: top;
+    }
+
+    100% {
+      background-position: bottom;
+    }
+}
+
+@keyframes gradient-4 {
+
+    0% {
+    background-position: top;
+    }
+
+    50% {
+      background-position: bottom;
+    }
+
+    100% {
+      background-position: top;
+    }
+}
+/* @keyframes gradient-vertical {
+
+    0% {
+    background-position: right;
+
+
+    50% {
+      background-position: left;
+    }
+
+    100% {
+      background-position: right;
+    }
+} */
