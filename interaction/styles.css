@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(228, 84, 3);
+  margin:0;
+}
+
+.object {
+  background-color:rgb(204, 222, 94);
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  /* transform:translate(-50%,50%); */
+}
+
+.object:hover {
+  background-color:rgb(13, 215, 94);
+}
+
+
+/* Animation */
