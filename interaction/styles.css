@@ -9,13 +9,13 @@ body {
 
 p {
   font-family: 'Xanh Mono', monospace;
-  font-size:20px;
+  font-size: 20px;
   letter-spacing: 1px;
   color: rgb(252, 243, 6);
 }
 
 img {
-  max-width:300px;
+  max-width: 300px;
 }
 
 .object {
@@ -37,19 +37,30 @@ img {
 .object:hover {
   background-color: rgb(13, 215, 94);
   transform: scale(2);
-  border-radius:0;
+  border-radius: 0;
 }
 
-
-
 .special {
+  cursor: crosshair;
+}
+
+.special:hover {
   color: rgb(7, 19, 190);
+  font-family:'Xanh Mono', monospace;
+  font-style: italic;
 }
 
 .hidden {
-  position:absolute;
-  bottom:10px;
-  left:10px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0;
+  transition:
+    opacity .5s;
+}
+
+.special:hover+.hidden {
+  opacity: 1;
 }
 
 /* Animation */
