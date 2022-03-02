@@ -5,28 +5,26 @@
 body {
   margin: 0;
   background-color: #f0e4db;
-  overflow:hidden;
+  overflow: hidden;
 }
-
-
 
 /* Background boxs */
 .box-container {
   width: 100vw;
   height: 100vh;
-  z-index:1;
+  z-index: 1;
   justify-content: space-around;
   align-items: center;
-  display:flex;
-  flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box-1 {
-    width: 25vw;
-    height: 35vh;
-    background: linear-gradient(-45deg, #009B3A, #FEDF00, #009B3A, #002776, #009B3A);
-    background-size: 200% 200%;
-    animation: gradient 24s infinite linear;
+  width: 25vw;
+  height: 35vh;
+  background: linear-gradient(-45deg, #009B3A, #FEDF00, #009B3A, #002776, #009B3A);
+  background-size: 200% 200%;
+  animation: gradient 24s infinite linear;
 }
 
 .box-2 {
@@ -116,8 +114,6 @@ body {
   background-size: 200% 200%;
   animation: gradient-2 24s infinite linear;
 }
-
-
 
 /* .box-1 {
     width: 25vw;
@@ -215,7 +211,6 @@ body {
   animation: gradient 12s infinite linear;
 } */
 /* Concentric Ponds */
-
 .pond-container {
   position: absolute;
   top: 0;
@@ -230,7 +225,6 @@ body {
   margin: 0 auto;
   display: block;
 }
-
 
 .pond-5 {
   fill: url(#RadialGradient5);
@@ -263,66 +257,62 @@ body {
 }
 
 /* Animation */
-
 @keyframes gradient {
-
-    0% {
+  0% {
     background-position: left;
-    }
+  }
 
-    50% {
-      background-position: right;
-    }
+  50% {
+    background-position: right;
+  }
 
-    100% {
-      background-position: left;
-    }
+  100% {
+    background-position: left;
+  }
 }
 
 @keyframes gradient-2 {
-
-    0% {
+  0% {
     background-position: right;
-    }
+  }
 
-    50% {
-      background-position: left;
-    }
+  50% {
+    background-position: left;
+  }
 
-    100% {
-      background-position: right;
-    }
+  100% {
+    background-position: right;
+  }
 }
 
 @keyframes gradient-3 {
-
-    0% {
+  0% {
     background-position: bottom;
-    }
+  }
 
-    50% {
-      background-position: top;
-    }
+  50% {
+    background-position: top;
+  }
 
-    100% {
-      background-position: bottom;
-    }
+  100% {
+    background-position: bottom;
+  }
 }
 
 @keyframes gradient-4 {
-
-    0% {
+  0% {
     background-position: top;
-    }
+  }
 
-    50% {
-      background-position: bottom;
-    }
+  50% {
+    background-position: bottom;
+  }
 
-    100% {
-      background-position: top;
-    }
+  100% {
+    background-position: top;
+  }
 }
+
 /* @keyframes gradient-vertical {
 
     0% {
