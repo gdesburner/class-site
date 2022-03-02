@@ -44,7 +44,7 @@ ul {
 
 .object:hover {
   background-color: rgb(13, 215, 94);
-  transform: scale(2);
+  transform: scale(5);
   border-radius: 0;
 }
 
