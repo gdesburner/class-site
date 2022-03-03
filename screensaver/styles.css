@@ -211,13 +211,21 @@ body {
   animation: gradient 12s infinite linear;
 } */
 /* Concentric Ponds */
+.ponds {
+  width:100%;
+  height:100vh;
+}
+
 .pond-container {
   position: absolute;
   top: 0;
   left: 0;
-  height: 75vw;
+  height: 100%;
   width: 100vw;
   overflow: hidden;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pond {

@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  
+
 }
 
 .main-container {
@@ -27,7 +27,16 @@ body {
   justify-content: center;
   height: 800px;
   width: 800px;
+  position:relative;
 
+}
+
+.border {
+  position:absolute;
+  border: #F3E4CF solid 80px;
+  width:100%;
+  height:100%;
+  z-index:999;
 }
 
 .sky {
@@ -249,8 +258,8 @@ body {
   align-self: flex-end;
   width: 12%;
   height: 18%;
-  right: 500px;
+  right: 200px;
   bottom: 100px;
   transform: scale(.875, 0.95) rotate(-5deg) skew(50deg, 2deg);
-  z-index: 999;
+  z-index: 99;
 }
