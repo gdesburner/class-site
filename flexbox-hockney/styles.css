@@ -154,6 +154,14 @@ body {
   height: 100%;
   width: 18px;
   align-self: flex-end;
+  display:flex;
+  justify-content: space-around;
+}
+
+.blinds-left-lines {
+  background-color: #928677;
+  height: 100%;
+  width: 1px;
 }
 
 .glass-left {
@@ -188,6 +196,14 @@ body {
   height: 100%;
   width: 28px;
   align-self: flex-start;
+  display:flex;
+  justify-content: space-around;
+}
+
+.blinds-right-lines {
+  background-color: #928677;
+  height: 100%;
+  width: 1px;
 }
 
 .glass-right {
