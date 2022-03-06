@@ -73,7 +73,7 @@ body {
   position: absolute;
   width: 28%;
   left: 42.5%;
-  z-index: 99;
+  z-index: 20;
 }
 
 .house {
@@ -150,7 +150,7 @@ body {
 }
 
 .blinds-left {
-  background-color: #B79A88;
+  background-color: #AE9B88;
   height: 100%;
   width: 18px;
   align-self: flex-end;
@@ -159,51 +159,64 @@ body {
 .glass-left {
   background-color: #929696;
   height: 100%;
-  width: 48px;
+  width: 100px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
-/* .tri-glass-left-2 {
-  background-color: #929696;
+.frame-left-1 {
+  background-color: #C9C5BD;
   height: 100%;
-  width: 48px;
-  display: flex;
-  flex-direction: row;
-} */
+  width: 2px;
+}
 
-.tri-glass-right {
+
+
+
+
+.panels-right {
   background-color: #C9C5BD;
   height: 90%;
   width: 146px;
   display: flex;
-  flex-direction: row;
-  gap: 4px;
+  flex-direction: row-reverse;
 }
 
-.tri-glass-right-1 {
-  background-color: #929696;
+.blinds-right {
+  background-color: #AE9B88;
   height: 100%;
-  width: 48px;
-  display: flex;
-  flex-direction: row;
+  width: 28px;
+  align-self: flex-start;
 }
 
-.tri-glass-right-2 {
+.glass-right {
   background-color: #929696;
   height: 100%;
-  width: 48px;
+  width: 156px;
   display: flex;
   flex-direction: row;
+
 }
 
-.tri-glass-right-3 {
-  background-color: #929696;
+.frame-right-1 {
+  background-color: #C9C5BD;
   height: 100%;
-  width: 48px;
-  display: flex;
-  flex-direction: row;
+  width: 2px;
+  position:relative;
+  left:48px;
+
 }
+
+.frame-right-2 {
+  background-color: #C9C5BD;
+  height: 100%;
+  width: 2px;
+  position:relative;
+  left:98px;
+}
+
+
 
 .ground {
   background-color: #CEAFA1;
@@ -247,7 +260,7 @@ body {
 
 .pool:hover .splash {
   position: fixed;
-  z-index: 10;
+  z-index: 21;
   opacity: 1;
   width: 400px;
   top: 475px;
