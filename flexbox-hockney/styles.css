@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-
 }
 
 .main-container {
@@ -17,8 +16,6 @@ body {
   align-items: center;
 }
 
-
-
 .main-canvas {
   background-color: #F3E4CF;
   display: flex;
@@ -27,16 +24,15 @@ body {
   justify-content: center;
   height: 800px;
   width: 800px;
-  position:relative;
-
+  position: relative;
 }
 
 .border {
-  position:absolute;
-  border: #F3E4CF solid 80px;
-  width:100%;
-  height:100%;
-  z-index:999;
+  position: absolute;
+  border: #F3E4CF solid 88px;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
   pointer-events: none;
 }
 
@@ -154,8 +150,9 @@ body {
   height: 100%;
   width: 18px;
   align-self: flex-end;
-  display:flex;
+  display: flex;
   justify-content: space-around;
+  z-index: 3;
 }
 
 .blinds-left-lines {
@@ -170,18 +167,27 @@ body {
   width: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  position:relative;
+  /* justify-content: space-around; */
+}
+
+.glass-left-buildings {
+  background-color: #5D5F66;
+  position: absolute;
+  align-self: flex-end;
+  height: 80%;
+  width: 92px;
+  z-index: 2;
 }
 
 .frame-left-1 {
   background-color: #C9C5BD;
   height: 100%;
   width: 2px;
+  position: absolute;
+  right: 32px;
+  z-index: 3;
 }
-
-
-
-
 
 .panels-right {
   background-color: #C9C5BD;
@@ -196,8 +202,9 @@ body {
   height: 100%;
   width: 28px;
   align-self: flex-start;
-  display:flex;
+  display: flex;
   justify-content: space-around;
+  z-index: 3;
 }
 
 .blinds-right-lines {
@@ -212,27 +219,66 @@ body {
   width: 156px;
   display: flex;
   flex-direction: row;
-
+  position: relative;
 }
+
+.glass-right-buildings-1 {
+  background-color: #5D5F66;
+  position: absolute;
+  align-self: flex-end;
+  height: 80%;
+  width: 24px;
+  z-index: 2;
+}
+
+.glass-right-buildings-2 {
+  background-color: #5D5F66;
+  position: absolute;
+  align-self: flex-end;
+  height: 65%;
+  width: 56px;
+  left:24px;
+  z-index: 2;
+}
+
+.glass-right-buildings-3 {
+  background-color: #5D5F66;
+  position: absolute;
+  align-self: flex-end;
+  height: 55%;
+  width: 40px;
+  left:80px;
+  z-index: 2;
+}
+
+.glass-right-buildings-4 {
+  background-color: #5D5F66;
+  position: absolute;
+  align-self: flex-end;
+  height: 60%;
+  width: 16px;
+  left:120px;
+  z-index: 2;
+}
+
 
 .frame-right-1 {
   background-color: #C9C5BD;
   height: 100%;
   width: 2px;
-  position:relative;
-  left:48px;
-
+  position: relative;
+  left: 48px;
+  z-index: 3;
 }
 
 .frame-right-2 {
   background-color: #C9C5BD;
   height: 100%;
   width: 2px;
-  position:relative;
-  left:98px;
+  position: relative;
+  left: 98px;
+  z-index: 3;
 }
-
-
 
 .ground {
   background-color: #CEAFA1;
@@ -257,7 +303,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-content: center;
-
 }
 
 .pool:hover {
@@ -293,10 +338,10 @@ body {
   background-color: #CBC08F;
   position: absolute;
   align-self: flex-end;
-  width: 12%;
+  width: 13%;
   height: 18%;
-  right: 200px;
-  bottom: 100px;
-  transform: scale(.875, 0.95) rotate(-5deg) skew(50deg, 2deg);
+  right: 150px;
+  bottom: 65px;
+  transform: scale(1.25, 0.95) rotate(-5deg) skew(40deg, 1deg);
   z-index: 99;
 }
