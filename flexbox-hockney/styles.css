@@ -152,7 +152,7 @@ body {
   align-self: flex-end;
   display: flex;
   justify-content: space-around;
-  z-index: 3;
+  z-index: 4;
 }
 
 .blinds-left-lines {
@@ -180,6 +180,16 @@ body {
   z-index: 2;
 }
 
+.glass-left-trees {
+  fill: #4A4953;
+  position: absolute;
+  align-self: flex-end;
+  height: 68%;
+  left:8px;
+  bottom:0;
+  z-index: 3;
+}
+
 .frame-left-1 {
   background-color: #C9C5BD;
   height: 100%;
@@ -204,7 +214,7 @@ body {
   align-self: flex-start;
   display: flex;
   justify-content: space-around;
-  z-index: 3;
+  z-index: 4;
 }
 
 .blinds-right-lines {
