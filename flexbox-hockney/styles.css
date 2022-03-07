@@ -73,7 +73,7 @@ body {
 }
 
 .house {
-  background-color: #B48F7D;
+  background-color: #BB8D7A;
   height: 44%;
   width: 75%;
   display: flex;
@@ -271,6 +271,15 @@ body {
   z-index: 2;
 }
 
+.glass-right-trees {
+  fill: #4A4953;
+  position: absolute;
+  align-self: flex-end;
+  height: 85%;
+  left:0px;
+  bottom:0;
+  z-index: 3;
+}
 
 .frame-right-1 {
   background-color: #C9C5BD;
@@ -306,7 +315,7 @@ body {
 }
 
 .pool {
-  background-color: #4D9AB2;
+  background-color: #129BB4;
   height: 32%;
   width: 80%;
   display: flex;
