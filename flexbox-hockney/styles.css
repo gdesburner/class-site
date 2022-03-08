@@ -118,8 +118,8 @@ body {
 
 .house {
   background-color: #BB8D7A;
-  height: 44%;
-  width: 75%;
+  height: 45%;
+  width: 74.75%;
   display: flex;
   align-self: flex-end;
   flex-direction: column;
@@ -140,10 +140,10 @@ body {
 
 .roof-lip {
   border-bottom: 2px solid #F3E4CF;
-  border-right: 3px solid transparent;
+  border-right: 2px solid transparent;
   transform: rotateX(180deg);
   height: 2px;
-  width: 76.5%;
+  width: 76.25%;
   z-index: 100;
   position: absolute;
   bottom: 144px;
@@ -154,7 +154,7 @@ body {
   border-right: 7.5px solid transparent;
   transform: rotateX(180deg);
   height: 5px;
-  width: 76%;
+  width: 75.85%;
   z-index: 100;
   position: absolute;
   bottom: 134px;
@@ -165,7 +165,7 @@ body {
   position: absolute;
   opacity: 20%;
   height: 5%;
-  width: 75%;
+  width: 74.75%;
   display: flex;
   z-index: 99;
 }
@@ -220,7 +220,7 @@ body {
   position: absolute;
   align-self: flex-end;
   height: 80%;
-  width: 92px;
+  width: 94px;
   z-index: 2;
 }
 
