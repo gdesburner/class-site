@@ -54,7 +54,7 @@ body {
   z-index: 1;
   position: absolute;
   left: 440px;
-  display:flex;
+  display: flex;
   flex-direction: row-reverse;
 }
 
@@ -70,7 +70,7 @@ body {
   position: absolute;
   width: 10%;
   left: 408px;
-  top:10%;
+  top: 10%;
   z-index: 20;
 }
 
@@ -81,7 +81,7 @@ body {
   z-index: 1;
   position: absolute;
   left: 500px;
-  display:flex;
+  display: flex;
   flex-direction: row-reverse;
 }
 
@@ -97,7 +97,7 @@ body {
   position: absolute;
   width: 7%;
   left: 480px;
-  top:9%;
+  top: 9%;
   z-index: 20;
 }
 
@@ -110,9 +110,9 @@ body {
 
 .chair {
   position: absolute;
-  width: 6%;
-  left: 146px;
-  top:278px;
+  width: 7%;
+  left: 144px;
+  top: 278px;
   z-index: 21;
 }
 
@@ -211,7 +211,7 @@ body {
   width: 100px;
   display: flex;
   flex-direction: row;
-  position:relative;
+  position: relative;
   /* justify-content: space-around; */
 }
 
@@ -229,8 +229,8 @@ body {
   position: absolute;
   align-self: flex-end;
   height: 68%;
-  left:8px;
-  bottom:0;
+  left: 8px;
+  bottom: 0;
   z-index: 3;
 }
 
@@ -291,7 +291,7 @@ body {
   align-self: flex-end;
   height: 65%;
   width: 56px;
-  left:24px;
+  left: 24px;
   z-index: 2;
 }
 
@@ -301,7 +301,7 @@ body {
   align-self: flex-end;
   height: 55%;
   width: 40px;
-  left:80px;
+  left: 80px;
   z-index: 2;
 }
 
@@ -311,7 +311,7 @@ body {
   align-self: flex-end;
   height: 60%;
   width: 16px;
-  left:120px;
+  left: 120px;
   z-index: 2;
 }
 
@@ -320,8 +320,8 @@ body {
   position: absolute;
   align-self: flex-end;
   height: 85%;
-  left:0px;
-  bottom:0;
+  left: 0px;
+  bottom: 0;
   z-index: 3;
 }
 
@@ -373,21 +373,21 @@ body {
 }
 
 .splash {
-  position: fixed;
+  position: absolute;
   width: 400px;
   opacity: 0;
   align-items: center;
-  top: 475px;
+  bottom: 150px;
   transform: scale(.75);
   transition: all .25s;
 }
 
 .pool:hover .splash {
-  position: fixed;
+  position: absolute;
   z-index: 21;
   opacity: 1;
   width: 400px;
-  top: 475px;
+  bottom: 150px;
   transform: scale(1.25);
 }
 
@@ -398,13 +398,31 @@ body {
 }
 
 .diving-board {
-  background-color: #CBC08F;
+  fill: #CEC189;
   position: absolute;
-  align-self: flex-end;
-  width: 13%;
+  width: 33%;
   height: 18%;
-  right: 150px;
-  bottom: 65px;
-  transform: scale(1.25, 0.95) rotate(-5deg) skew(40deg, 1deg);
+  right: 88px;
+  bottom: 76px;
+  z-index: 99;
+}
+
+.diving-board-shadow {
+  fill: #A8A380;
+  position: absolute;
+  width: 33%;
+  height: 18%;
+  right: 92px;
+  bottom: 76px;
+  z-index: 99;
+}
+
+.diving-board-side {
+  fill: #604C43;
+  position: absolute;
+  width: 33%;
+  height: 18%;
+  right: 91px;
+  bottom: 76px;
   z-index: 99;
 }
