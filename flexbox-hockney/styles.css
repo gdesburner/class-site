@@ -108,7 +108,13 @@ body {
   z-index: 20;
 }
 
-
+.chair {
+  position: absolute;
+  width: 6%;
+  left: 146px;
+  top:278px;
+  z-index: 21;
+}
 
 .house {
   background-color: #BB8D7A;
