@@ -16,6 +16,16 @@ body {
   font-family: courier, monospace;
 }
 
+.mobile-box {
+  background-color: rgb(249, 51, 39);
+  color: white;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: courier, monospace;
+  display:none;
+}
+
 .checkers {
   display: flex;
 }
@@ -49,6 +59,7 @@ body {
   .object-below {
     background-color: rgb(86, 167, 145);
     border-radius: 10px;
+    transition: border-radius 1s;
   }
 
   .desktop-box {
@@ -68,4 +79,13 @@ body {
   .box {
     width:33.33%;
   }
+
+  .mobile-box {
+    display:flex;
+  }
+
+  .desktop-box {
+    display:none;
+  }
+
 }
