@@ -40,24 +40,16 @@ p {font-family: 'Xanh Mono', monospace;
   font-size: 72px;
   position:absolute;
   right:20px;
-  bottom:0px;
+  top:20px;
   display:none;
-}
-
-.chair-photo {
-  display: none;
 }
 
 .text-box-3 {
   font-size: 72px;
   position:absolute;
-  right:20px;
+  left:20px;
   bottom:0px;
   display:none;
-}
-
-.chair-placard {
-  display: none;
 }
 
 .text-box-4 {
@@ -68,9 +60,17 @@ p {font-family: 'Xanh Mono', monospace;
   display:none;
 }
 
+.chair-photo {
+  display: none;
+}
+
+.chair-placard {
+  display: none;
+}
+
+/* HALFWAY POINT */
 @media screen and (max-width:600px) {
 
-  /* B&W PHOTO OF CHAIR */
   .chair-photo {
     display: inline;
     position: absolute;
@@ -80,17 +80,45 @@ p {font-family: 'Xanh Mono', monospace;
     display: inline;
   }
 
+}/* B&W PHOTO OF CHAIR */
+@media screen and (max-width:600px) {
+
+  .chair-photo {
+    display: inline;
+    position: absolute;
+  }
+
+  .text-box-3 {
+    display: inline;
+  }
+
 }
 
 
-@media screen and (max-height:410px) and (max-width:600px) {
+/* B&W PHOTO OF CHAIR */
+@media screen and (max-width:600px) {
+
+  .chair-photo {
+    display: inline;
+    position: absolute;
+  }
+
+  .text-box-3 {
+    display: inline;
+  }
+
+}
 
   /* PLACARD */
+@media screen and (max-height:410px) and (max-width:600px) {
+
   .chair-placard {
     display: inline;
     position: absolute;
   }
 
-
+  .text-box-4 {
+    display: inline;
   }
+
 }
