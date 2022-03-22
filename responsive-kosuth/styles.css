@@ -78,6 +78,7 @@ p {font-family: 'Xanh Mono', monospace;
 
   .text-box-2 {
     display: inline;
+    animation: display 1s;
   }
 
 }/* B&W PHOTO OF CHAIR */

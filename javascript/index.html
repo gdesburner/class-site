@@ -1,14 +1,32 @@
 <!doctype html>
 <html>
+
 <head>
-    <title>Javascript</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="file.png">
-    <link rel="stylesheet" href="styles.css">
+  <title>Javascript</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="file.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
-  <body>
+<body>
+  <!-- first we set up the button that is triggering our javascript -->
+  <!-- note that the element doesn't need to be a <button> to work -->
+  <button onclick="toggle()">Click me...</button>
 
-  </body>
+  <!-- the box that we will be altering with our javascript -->
+  <div id="box" class="sidebar">
+    the box
+  </div>
+
+
+  <!-- page loads better/faster javascript if placed at bottom of body -->
+  <script>
+    function toggle() {
+      var box = document.getElementById("box");
+      box.classList.toggle("active");
+    }
+  </script>
+
+</body>
 
 </html>
