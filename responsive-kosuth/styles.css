@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url('assets/kosuth_chair_full.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+}
+
+.chair-full {
+  width: 100%;
+  height:
+    margin:0;
+  padding: 0;
+}
+
+.chair-photo {
+  display: none;
+}
+
+.chair-placard {
+  display: none;
+}
+
+@media screen and (max-width:1200px) {
+
+  /* PHOTO */
+  .chair-photo {
+    display: inline;
+  }
+}
