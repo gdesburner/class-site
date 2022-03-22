@@ -40,10 +40,24 @@ img {
   display: none;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-height:1000px) and (max-width:500px) {
 
   /* PHOTO */
   .chair-photo {
     display: inline;
+    width:100vw;
+    height:auto;
+    z-index:20;
+  }
+}
+
+@media screen and (max-width:800px) {
+
+  /* PLACARD */
+  .chair-placard {
+    display: inline;
+    width:100vw;
+    height:auto;
+    z-index:30;
   }
 }
