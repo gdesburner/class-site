@@ -14,33 +14,32 @@ img {
 }
 
 .container {
-
+  display:flex;
 }
 
 .chair-full {
-  margin: 0 auto;
-  max-height: 100%;
-  max-width: 100%;
+  display: inline;
 }
 
 .chair-photo {
   display: none;
-  width: 1200px;
 }
 
 .chair-placard {
   display: none;
 }
 
-@media screen and (min-height:860px) and (min-width:560px) {
+@media screen and (max-width:600px) {
 
   /* B&W PHOTO OF CHAIR */
   .chair-photo {
     display: inline;
-    width: 1200px;
-    height: auto;
     z-index: 20;
     position: absolute;
+  }
+
+  .chair-photo img{
+    width:600px;
   }
 }
 
@@ -49,9 +48,13 @@ img {
   /* PLACARD */
   .chair-placard {
     display: inline;
-    width: 100%;
-    height: auto;
     z-index: 30;
     position: absolute;
   }
+
+  .chair-placard {
+    width:auto;
+    height:420px;
+  }
+
 }
