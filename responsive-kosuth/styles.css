@@ -15,10 +15,11 @@ img {
   object-fit: cover;
 }
 
-p {font-family: 'Xanh Mono', monospace;
+p {
+  font-family: 'Xanh Mono', monospace;
   font-size: 24px;
-  letter-spacing: 1px;}
-
+  letter-spacing: 1px;
+}
 
 .container {
   display: flex;
@@ -28,110 +29,104 @@ p {font-family: 'Xanh Mono', monospace;
   display: flex;
 }
 
-
 .text-box-1 {
   font-size: 72px;
-  position:absolute;
-  right:20px;
-  bottom:0px;
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 .text-box-2 {
   font-size: 72px;
-  position:absolute;
-  left:20px;
-  bottom:0px;
-  display:none;
+  position: absolute;
+  left: 20px;
+  bottom: 0px;
+  visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 .text-box-3 {
   font-size: 72px;
-  position:absolute;
-  left:20px;
-  top:10px;
-  display:none;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 .text-box-4 {
   font-size: 72px;
-  position:absolute;
-  right:20px;
-  top:10px;
-  display:none;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 .chair-photo {
-  display: none;
+  visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s linear;
 }
 
 .chair-placard {
-  display: none;
+  visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s linear;
 }
+
+/* BREAKPOINTS */
+
+/* FIRST MOVEMENT IN */
+@media screen and (max-width:1200px) {
+  .text-box-1 {
+    visibility:visible;
+    opacity:1;
+  }
+
+
+}
+
 
 /* HALFWAY POINT */
-@media screen and (max-width:600px) {
-
-  .chair-photo {
-    display: inline;
-    position: absolute;
-  }
-
+@media screen and (max-width:800px) {
   .text-box-2 {
-    display: inline;
-  
+    visibility:visible;
+    opacity:1;
   }
-
-}/* B&W PHOTO OF CHAIR */
-@media screen and (max-width:600px) {
-
-  .chair-photo {
-    display: inline;
-    position: absolute;
-  }
-
-  .text-box-3 {
-    display: inline;
-  }
-
 }
-
 
 /* B&W PHOTO OF CHAIR */
 @media screen and (max-width:600px) {
-
   .chair-photo {
-    display: inline;
+    visibility:visible;
+    opacity:1;
     position: absolute;
   }
 
   .text-box-3 {
-    display: inline;
+    visibility:visible;
+    opacity:1;
   }
 
 }
 
-  /* PLACARD */
+/* PLACARD */
 @media screen and (max-height:410px) and (max-width:600px) {
-
   .chair-placard {
-    display: inline;
+    visibility:visible;
+    opacity:1;
     position: absolute;
   }
 
-  .text-box-1 {
-    display: inline;
-  }
-
-  .text-box-2 {
-    display: inline;
-  }
-
-  .text-box-3 {
-    display: inline;
-  }
-
   .text-box-4 {
-    display: inline;
+    visibility:visible;
+    opacity:1;
   }
-
 }
