@@ -78,7 +78,7 @@ p {font-family: 'Xanh Mono', monospace;
 
   .text-box-2 {
     display: inline;
-    animation: display 1s;
+  
   }
 
 }/* B&W PHOTO OF CHAIR */
@@ -116,6 +116,18 @@ p {font-family: 'Xanh Mono', monospace;
   .chair-placard {
     display: inline;
     position: absolute;
+  }
+
+  .text-box-1 {
+    display: inline;
+  }
+
+  .text-box-2 {
+    display: inline;
+  }
+
+  .text-box-3 {
+    display: inline;
   }
 
   .text-box-4 {

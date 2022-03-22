@@ -2,15 +2,24 @@
   box-sizing: border-box;
 }
 
+button {
+  background-color:rgb(107, 238, 74);
+  border-radius:50%;
+  border:none;
+  cursor:cell;
+}
+
 .sidebar {
   background-color:rgb(187, 107, 73);
   position: fixed;
   top:0;
-  right:0;
+  right:-100px;
   height:300px;
   width:100px;
+  padding:20px;
+  transition: right .5s ease-in-out;
 }
 
 .active {
-  
+  right:0;
 }
