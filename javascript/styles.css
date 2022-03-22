@@ -7,6 +7,13 @@ button {
   border-radius:50%;
   border:none;
   cursor:cell;
+  padding:20px;
+  transition: background-color .2s;
+}
+
+button:hover {
+  background-color:rgb(192, 227, 24);
+
 }
 
 .sidebar {
