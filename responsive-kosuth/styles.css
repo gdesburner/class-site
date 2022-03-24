@@ -68,12 +68,12 @@ p {
 
 .chair-photo {
   opacity: 0;
-  transition: visibility 0s, opacity 0.2s linear;
+  transition: visibility 0s, opacity 1s linear;
 }
 
 .chair-placard {
   opacity: 0;
-  transition: visibility 0s, opacity 0.2s linear;
+  transition: visibility 0s, opacity 1s linear;
 }
 
 /* BREAKPOINTS */
