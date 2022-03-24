@@ -6,9 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="file.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
+  <!-- jquery marquee in action -->
+  <div class='marquee'>We are committed to the idea that study is what you do with other people. It’s talking and walking around with other people, working, dancing, suffering, some irreducible convergence of all three, held under the name of speculative practice. The notion of a rehearsal—being in a kind of workshop, playing in a band, in a jam session, or old men sitting on a porch, or people working together in a factory—there are these various modes of activity. The point of calling it “study” is to mark that the incessant and irreversible intellectuality of these activities is already present.</div>
+
   <!-- first we set up the button that is triggering our javascript -->
   <!-- note that the element doesn't need to be a <button> to work -->
   <button onclick="toggle()">Click me...</button>
@@ -19,10 +25,13 @@
   </div>
 
 
-  <!-- page loads better/faster javascript if placed at bottom of body -->
-  <script src="jquery-3.6.0.min.js"></script>
 
-  <script src="functions.js"></script>
+
+  <!-- page loads better/faster javascript if placed at bottom of body -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery.marquee.min.js"></script>
+  <script src="js/functions.js"></script>
+
 
 
 </body>

@@ -29,3 +29,14 @@ button:hover {
 .active {
   right: 0;
 }
+
+.marquee {
+  width: 100%;
+  padding:50px 0;
+  /* the plugin works for responsive layouts so width is not necessary */
+  overflow: hidden;
+  background-color: #8687c9;
+  color:white;
+  font-family: 'Xanh Mono', monospace;
+  font-size: 21px;
+}
