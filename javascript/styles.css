@@ -4,6 +4,7 @@
 
 button {
   background-color: rgb(107, 238, 74);
+  font-family: 'Xanh Mono', monospace;
   border-radius: 50%;
   border: none;
   cursor: cell;
@@ -16,6 +17,7 @@ button:hover {
 }
 
 .sidebar {
+  font-family: 'Xanh Mono', monospace;
   background-color: rgb(187, 107, 73);
   position: fixed;
   top: 0;
@@ -36,7 +38,20 @@ button:hover {
   /* the plugin works for responsive layouts so width is not necessary */
   overflow: hidden;
   background-color: #8687c9;
+  background-image: linear-gradient(to right, #8687c9 , rgb(212, 238, 194));
   color:white;
   font-family: 'Xanh Mono', monospace;
   font-size: 21px;
+}
+
+.draggable {
+  font-family: 'Xanh Mono', monospace;
+  width:300px;
+  height:100px;
+  cursor:grab;
+  border-style:dashed;
+  border-color:black;
+  border-width:1px;
+
+
 }
